@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="953730DE-FDFB-215B-7F5A-799DA91209B7" name="SIM_assignments">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>613C2C5F-6A90-5053-E2D8-442A50AC4004</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assignment_id" id="260E35D0-989C-8FB1-6E1F-88923FC90D08">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>85F3AD70-9966-2693-D35D-D62936A856A4</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="87D45639-BB5E-A53C-A5E6-98B8C6A2AEAE">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>742C9DFA-324C-3E5A-D3F2-1A4B16AC51BD</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>193A1995-1244-10E8-103C-64D33ADC3C9E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46FBB80C-C523-3AF2-A546-A1D601CECF5D" referredColumn="193A1995-1244-10E8-103C-64D33ADC3C9E"/>
+</associations>
+</Column>
+<Column name="SIM_project_project_id" id="4CC8E773-DFAE-11AA-DD9B-FC850FCA8FF7">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>50670FB7-E1E0-F209-CCAB-686D7D02CD24</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C6984205-B30D-CDC3-9E93-B67A1B39A5BD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAE9FBFC-D1BD-618D-A6F3-C433743902A1" referredColumn="C6984205-B30D-CDC3-9E93-B67A1B39A5BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFD6A908-88ED-2EA1-C081-F440A20AA705" name="SIM_assignments_PK">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>9500CF3B-6B22-29FD-1E02-771CB708223A</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="260E35D0-989C-8FB1-6E1F-88923FC90D08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="704D1E9B-A8D3-C185-6B1A-20C152C48F7B" name="SIM_assignments_SIM_Person_FK">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>AF35224F-0E61-FA1D-F3AD-485A17A8B9FF</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D45639-BB5E-A53C-A5E6-98B8C6A2AEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C2EC2B-E783-D8AA-9F7D-FDB6BF01CA52" name="SIM_assignments_SIM_project_FK">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:22:40 UTC</createdTime>
+<generatorID>563ABB20-7D1C-B4B6-BE8D-6846C02CA29D</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CC8E773-DFAE-11AA-DD9B-FC850FCA8FF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
