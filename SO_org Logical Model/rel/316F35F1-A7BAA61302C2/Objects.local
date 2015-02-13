@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="8B3B485A-ACB6-D2C1-E0E5-31BD9AEDE198" name="SO_Contribution" seqName="seg_0"/>
+   <object objectType="Table" objectID="25159792-3EDD-FA77-8E6E-869A23D3955F" name="SO_Org" seqName="seg_0"/>
+   <object objectType="Table" objectID="16ED0831-2AD7-B74B-D23B-14E4CE93D726" name="SO_Ownership" seqName="seg_0"/>
+   <object objectType="Table" objectID="2E86D011-F19C-A9B3-AEC0-E0B3FFE8CE45" name="SO_Person" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5290905A-27C5-F4FB-A098-A71CA1D407B9" name="SO_Contribution_SO_Org_FK" seqName="seg_0" containerID="8B3B485A-ACB6-D2C1-E0E5-31BD9AEDE198" refContainerID="25159792-3EDD-FA77-8E6E-869A23D3955F"/>
+   <object objectType="FKIndexAssociation" objectID="E006EC59-4AA9-42A5-DDA3-A8D965240D4B" name="SO_Contribution_SO_Person_FK" seqName="seg_0" containerID="8B3B485A-ACB6-D2C1-E0E5-31BD9AEDE198" refContainerID="2E86D011-F19C-A9B3-AEC0-E0B3FFE8CE45"/>
+   <object objectType="FKIndexAssociation" objectID="DF493D74-C2C2-BA0E-6133-C8DF0DC71E4B" name="SO_Ownership_SO_Org_FK" seqName="seg_0" containerID="16ED0831-2AD7-B74B-D23B-14E4CE93D726" refContainerID="25159792-3EDD-FA77-8E6E-869A23D3955F"/>
+   <object objectType="FKIndexAssociation" objectID="DB48FCA4-0121-A2DB-11FF-1845C0CFD6E0" name="SO_Ownership_SO_Person_FK" seqName="seg_0" containerID="16ED0831-2AD7-B74B-D23B-14E4CE93D726" refContainerID="2E86D011-F19C-A9B3-AEC0-E0B3FFE8CE45"/>
+   <object objectType="FKIndexAssociation" objectID="2E7014FA-5813-9AE6-5F6A-071616E82567" name="SO_Person_SO_Org_FK" seqName="seg_0" containerID="2E86D011-F19C-A9B3-AEC0-E0B3FFE8CE45" refContainerID="25159792-3EDD-FA77-8E6E-869A23D3955F"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16ED0831-2AD7-B74B-D23B-14E4CE93D726" name="SO_Ownership">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>88823700-9304-6073-9534-BC6B70158CA8</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ownership_id" id="A22E6767-BBC5-85A7-0E50-179894AF9A8B">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>5227F00F-4592-8767-F367-2E4A116D2A0B</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SO_Org_org_id" id="102D508C-4E99-E868-E211-9EA06CDAA777">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>8F377E03-1858-BE50-D726-3C0CC1A5E634</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF493D74-C2C2-BA0E-6133-C8DF0DC71E4B" referredColumn="AFABB07C-3A02-E526-5AB2-7ECD6D3177F0"/>
+</associations>
+</Column>
+<Column name="SO_Person_person_id" id="1197505D-E29A-9566-2B4F-1C4ED8D55D0F">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>2ABA9160-2F70-2764-C23C-9B260F0DCEBD</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB48FCA4-0121-A2DB-11FF-1845C0CFD6E0" referredColumn="476DA50C-86CD-4E87-96B3-B5C392C8F71E"/>
+</associations>
+</Column>
+<Column name="percentage" id="2BA3AE27-EC65-BFC6-832D-A84FAF74F1C6">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>F956B800-026D-DB0A-BC7F-D12630955D0B</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E46BC49-6A3A-F9D6-4D58-3B539782F2DE" name="SO_Ownership_PK">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>50534171-A85B-0C44-A762-30DA27D64F3A</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A22E6767-BBC5-85A7-0E50-179894AF9A8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DEA4516-C000-C212-BDF4-A87B1C0B1A46" name="SO_Ownership_SO_Org_FK">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>BDCDBB94-86EA-B686-D8F1-4C3E125515DB</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="102D508C-4E99-E868-E211-9EA06CDAA777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A686417-35F8-3CF9-5A41-E6736BD48C88" name="SO_Ownership_SO_Person_FK">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:51:15 UTC</createdTime>
+<generatorID>ECCC60BA-6AF6-15FE-CFA7-5D6C9E33EAA4</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1197505D-E29A-9566-2B4F-1C4ED8D55D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

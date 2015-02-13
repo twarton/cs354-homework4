@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88823700-9304-6073-9534-BC6B70158CA8" name="SO_Ownership">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:18:46 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="30E59D9B-A3B8-9EC3-0332-939B06E8BECE" value="true"/>
+<item key="316F35F1-C75A-48A1-AC47-A7BAA61302C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ownership_id" id="5227F00F-4592-8767-F367-2E4A116D2A0B">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:19:02 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="30E59D9B-A3B8-9EC3-0332-939B06E8BECE" value="true"/>
+<item key="316F35F1-C75A-48A1-AC47-A7BAA61302C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="org_id" id="8F377E03-1858-BE50-D726-3C0CC1A5E634">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:19:37 UTC</createdTime>
+<generatorID>BDCDBB94-86EA-B686-D8F1-4C3E125515DB</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="30E59D9B-A3B8-9EC3-0332-939B06E8BECE" value="true"/>
+<item key="316F35F1-C75A-48A1-AC47-A7BAA61302C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>39AB6D9A-5767-5827-AE0E-0D5C7152CECC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="2ABA9160-2F70-2764-C23C-9B260F0DCEBD">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:19:53 UTC</createdTime>
+<generatorID>ECCC60BA-6AF6-15FE-CFA7-5D6C9E33EAA4</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="30E59D9B-A3B8-9EC3-0332-939B06E8BECE" value="true"/>
+<item key="316F35F1-C75A-48A1-AC47-A7BAA61302C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FDB187B9-4AEA-85D1-6F0C-6942B590F5FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="percentage" id="F956B800-026D-DB0A-BC7F-D12630955D0B">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:25:07 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="30E59D9B-A3B8-9EC3-0332-939B06E8BECE" value="true"/>
+<item key="316F35F1-C75A-48A1-AC47-A7BAA61302C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50534171-A85B-0C44-A762-30DA27D64F3A" name="SO-Owner PK">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-02 22:19:10 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="30E59D9B-A3B8-9EC3-0332-939B06E8BECE" value="true"/>
+<item key="316F35F1-C75A-48A1-AC47-A7BAA61302C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5227F00F-4592-8767-F367-2E4A116D2A0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
