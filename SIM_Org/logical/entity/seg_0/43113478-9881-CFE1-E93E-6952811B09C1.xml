@@ -165,24 +165,72 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="dept_id" id="C40450BD-3186-67BB-4B38-A3604FE8BB9E">
-<createdBy>tamara</createdBy>
-<createdTime>2015-02-13 21:51:06 UTC</createdTime>
-<generatorID>EC5D442C-3612-2F3E-189A-A6DE42C06134</generatorID>
+<Attribute name="type" id="526E5D34-07B3-446D-46B3-1ADC3EE9CAEE">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:04:13 UTC</createdTime>
 <ownerDesignName>SIM_Org</ownerDesignName>
 <engineerTo>
 <item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>A3AA00AA-326C-1523-E1DD-4FCD9D5DDE10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="emp_id" id="BA5D0FD2-7BB2-15EA-CC83-3BBBDE0B5B27">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:05:24 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="dept_id1" id="ABA29758-39CE-12BC-4216-03D326B26244">
-<createdBy>tamara</createdBy>
-<createdTime>2015-02-13 21:51:17 UTC</createdTime>
-<generatorID>572966B7-D14B-A69C-4D1E-DA5AA3F0ECEC</generatorID>
+<Attribute name="hire_date" id="817D8D06-EA6F-93A6-E2C3-313BFB1776C3">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:05:40 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="978CA465-3C97-6AF5-CEC0-25F04849088D">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:05:49 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="7DC2CB18-AE3C-A8E0-D42A-E16B3CA64D85">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:06:05 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="E8F1F4D2-F913-0742-5BF1-694B99BAD69F">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:15:50 UTC</createdTime>
+<generatorID>D70A3237-2347-EBEC-128C-0855AA1D969B</generatorID>
 <ownerDesignName>SIM_Org</ownerDesignName>
 <engineerTo>
 <item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>

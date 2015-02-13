@@ -64,20 +64,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="person_id" id="210B0F8A-C72D-24F8-B2BD-5F1CA47D05A2">
-<createdBy>tamara</createdBy>
-<createdTime>2015-02-13 21:51:02 UTC</createdTime>
-<generatorID>EC5D442C-3612-2F3E-189A-A6DE42C06134</generatorID>
-<ownerDesignName>SIM_Org</ownerDesignName>
-<engineerTo>
-<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>1B8164CC-EDFD-21CE-34AD-17582CA3A214</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="77111A8C-66F6-DDDE-E435-4F6B8DF3860A" name="Entity_6 PK">
