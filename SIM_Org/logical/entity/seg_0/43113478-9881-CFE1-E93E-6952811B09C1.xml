@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43113478-9881-CFE1-E93E-6952811B09C1" name="SIM_Person">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:17:14 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="1B8164CC-EDFD-21CE-34AD-17582CA3A214">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:18:18 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="7DB5D76C-9EEE-6553-7D4A-87D3D0701304">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:18:31 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="7BB5E436-74DB-453F-4380-8A031608B851">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:18:44 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="B1EA28D5-F797-1724-2EBF-37A1FD59A0C2">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:18:53 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="DED0C433-3B14-FEDD-479B-5506FD5D64C0">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:19:02 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="B75059CC-0B00-AF57-DE88-811CBE4ABF47">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:19:11 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="BF4B623F-C325-1456-E9C0-0EBA5264721E">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:19:22 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="74E1C61F-2375-91FF-91BA-C4E3424CF2BB">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:19:31 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="B2BEF69D-93F5-6765-C6FB-29A408553B32">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:22:29 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="title" id="8D0142BA-A2A6-B2E6-2940-CC8FE7689A63">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:40:51 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="B54CDC6E-9CAD-F935-3DDD-7578BBB5F985">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:40:51 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="rating" id="62B5F344-C323-FC85-273B-8F5D7E0BA1AC">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:41:40 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="C40450BD-3186-67BB-4B38-A3604FE8BB9E">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:51:06 UTC</createdTime>
+<generatorID>EC5D442C-3612-2F3E-189A-A6DE42C06134</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A3AA00AA-326C-1523-E1DD-4FCD9D5DDE10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="ABA29758-39CE-12BC-4216-03D326B26244">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:51:17 UTC</createdTime>
+<generatorID>572966B7-D14B-A69C-4D1E-DA5AA3F0ECEC</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A3AA00AA-326C-1523-E1DD-4FCD9D5DDE10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64754085-2D90-DA97-D497-3D0E8C46A2FA" name="SIM_Person PK">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:18:25 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="B26521C4-618A-84AE-9065-4460C48A48E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B8164CC-EDFD-21CE-34AD-17582CA3A214</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
