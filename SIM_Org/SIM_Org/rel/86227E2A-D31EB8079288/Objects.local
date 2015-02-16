@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="862246E0-AFE0-29F7-9572-27F0FCB79022" name="SIM_Person" seqName="seg_0"/>
+   <object objectType="Table" objectID="B0E80CE3-6CEA-C512-2158-E1776306E4B5" name="SIM_assignments" seqName="seg_0"/>
+   <object objectType="Table" objectID="816AE583-075D-A651-BA1F-C037EF16458D" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="Table" objectID="A606D886-8E30-C09B-7F2A-A7F356A97AC3" name="SIM_project" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2189F88F-C27E-E4C0-08C1-9AD66BBA11C3" name="SIM_Person_SIM_dept_FK" seqName="seg_0" containerID="862246E0-AFE0-29F7-9572-27F0FCB79022" refContainerID="816AE583-075D-A651-BA1F-C037EF16458D"/>
+   <object objectType="FKIndexAssociation" objectID="BC75C37E-80E9-7D97-1BD9-AAA9BD05FA66" name="SIM_Person_SIM_dept_FKv1" seqName="seg_0" containerID="862246E0-AFE0-29F7-9572-27F0FCB79022" refContainerID="816AE583-075D-A651-BA1F-C037EF16458D"/>
+   <object objectType="FKIndexAssociation" objectID="03CFCCD1-E407-DECE-0B10-5D3AA0B700EA" name="SIM_assignments_SIM_Person_FK" seqName="seg_0" containerID="B0E80CE3-6CEA-C512-2158-E1776306E4B5" refContainerID="862246E0-AFE0-29F7-9572-27F0FCB79022"/>
+   <object objectType="FKIndexAssociation" objectID="EA35D9E6-86AA-5DAE-2140-AD6DA45EED36" name="SIM_assignments_SIM_project_FK" seqName="seg_0" containerID="B0E80CE3-6CEA-C512-2158-E1776306E4B5" refContainerID="A606D886-8E30-C09B-7F2A-A7F356A97AC3"/>
+   <object objectType="FKIndexAssociation" objectID="3A25DBE4-AF9D-BAFC-FF66-23715C104656" name="SIM_dept_SIM_Person_FK" seqName="seg_0" containerID="816AE583-075D-A651-BA1F-C037EF16458D" refContainerID="862246E0-AFE0-29F7-9572-27F0FCB79022"/>
+   <object objectType="FKIndexAssociation" objectID="F8ECE801-87B1-13BB-DC50-EFC4201D861F" name="SIM_project_SIM_dept_FK" seqName="seg_0" containerID="A606D886-8E30-C09B-7F2A-A7F356A97AC3" refContainerID="816AE583-075D-A651-BA1F-C037EF16458D"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

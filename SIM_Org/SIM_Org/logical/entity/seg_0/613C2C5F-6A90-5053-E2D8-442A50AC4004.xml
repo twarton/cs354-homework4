@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="613C2C5F-6A90-5053-E2D8-442A50AC4004" name="SIM_assignments">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:30:48 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="D2F5839D-36F6-B9E0-8B6A-003AE49E2C49" value="true"/>
+<item key="86227E2A-AE0F-39DC-89B3-D31EB8079288" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="assignment_id" id="85F3AD70-9966-2693-D35D-D62936A856A4">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:13:00 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="D2F5839D-36F6-B9E0-8B6A-003AE49E2C49" value="true"/>
+<item key="86227E2A-AE0F-39DC-89B3-D31EB8079288" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="742C9DFA-324C-3E5A-D3F2-1A4B16AC51BD">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:14:24 UTC</createdTime>
+<generatorID>AF35224F-0E61-FA1D-F3AD-485A17A8B9FF</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="D2F5839D-36F6-B9E0-8B6A-003AE49E2C49" value="true"/>
+<item key="86227E2A-AE0F-39DC-89B3-D31EB8079288" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1B8164CC-EDFD-21CE-34AD-17582CA3A214</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="50670FB7-E1E0-F209-CCAB-686D7D02CD24">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:18:21 UTC</createdTime>
+<generatorID>563ABB20-7D1C-B4B6-BE8D-6846C02CA29D</generatorID>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="D2F5839D-36F6-B9E0-8B6A-003AE49E2C49" value="true"/>
+<item key="86227E2A-AE0F-39DC-89B3-D31EB8079288" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A57BF4B9-A363-7524-CFF7-D649CF0162E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9500CF3B-6B22-29FD-1E02-771CB708223A" name="{entity} PK">
+<createdBy>alexkillian</createdBy>
+<createdTime>2015-02-13 22:13:14 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<engineerTo>
+<item key="D2F5839D-36F6-B9E0-8B6A-003AE49E2C49" value="true"/>
+<item key="86227E2A-AE0F-39DC-89B3-D31EB8079288" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85F3AD70-9966-2693-D35D-D62936A856A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

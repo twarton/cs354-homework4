@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="440C32D6-A9EB-666F-033A-53BE5A9D880B" mainViewID="D99FB69B-F0E1-6990-FC48-2CD9849770EA">
+<createdBy>tamara</createdBy>
+<createdTime>2015-02-13 21:15:20 UTC</createdTime>
+<ownerDesignName>SIM_Org</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
