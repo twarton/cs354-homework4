@@ -65,6 +65,6 @@ BEGIN
         :new.TITLE,
         :new.RATING,
         :new.SIM_DEPT_DEPT_ID,
-        'Manager');
+        'Project Emp');
 END;
 /
